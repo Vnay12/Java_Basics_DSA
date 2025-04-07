@@ -62,6 +62,7 @@ iii) Application Classloader / System Classloader
 
 B) Linking
 - Three steps ok Linking 
+  
 i) Verification
 - it checks the bytecode is safe and valid 
 - it checks all the things are right like class format and all the access control
