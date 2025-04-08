@@ -60,8 +60,9 @@ iii) Application Classloader / System Classloader
 ![alt text](image-6.png)
 
 
+
 B) Linking
-- Three steps ok Linking 
+- Three steps of Linking  
   
 i) Verification
 - it checks the bytecode is safe and valid 
@@ -91,19 +92,12 @@ String msg = "HEEEELLLOOO"
 - this is the refernece to class java/lang/String
 - this is how javac works ( the package + class ) to indentify its class and defination
 
+C) Initialization
+- Actually running the class's static block and static variable 
+- finds all the static field in the order and executes them 
+- all the static class will execute in which if you object is passed then memory allocation will also happen ( simply this is the start of the class and run time execution)
 
 
 
 
 ![alt text](image-7.png)
-
-
-
-
-**Memory Management**
-
-A) Types of Memory:
-- Stack 
-- Heap 
-
-Both Stack and Heap are created and managed by JVM and stored in RAM
