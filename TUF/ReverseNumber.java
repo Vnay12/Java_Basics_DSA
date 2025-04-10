@@ -2,21 +2,20 @@ package TUF;
 
 public class ReverseNumber {
     public int numberReverse(int n) {
-        int ans = 0;
-        while(n>0){
-            ans = n %10;
+        // logic here
+        int answer = 0;
+        while (n > 0) {
+            int lastDigit = n % 10;
+            answer = (answer * 10) + lastDigit;
             n = n / 10;
-            ans = (( ans * 10 ) + 1 );
-
         }
-        return ans;
+        return answer;
     }
 
     public static void main(String[] args) {
-        int n = 9987;
-        ReverseNumber rev = new ReverseNumber();
-        int answer = rev.numberReverse(n);
-        System.out.println(answer);
-
+        int n = -123;
+        ReverseNumber rvr = new ReverseNumber();
+        int finalanswer = rvr.numberReverse(n);
+        System.out.print(finalanswer);
     }
 }
