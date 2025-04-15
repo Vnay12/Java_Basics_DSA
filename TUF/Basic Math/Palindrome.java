@@ -1,4 +1,3 @@
-package TUF;
 
 public class Palindrome {
 

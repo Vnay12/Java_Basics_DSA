@@ -1,6 +1,4 @@
 
-package TUF;
-
 public class CountNumber {
 
     // Time complexity of code is : O(Logn)

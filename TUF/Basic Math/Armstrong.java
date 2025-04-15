@@ -1,4 +1,4 @@
-package TUF;
+// Removed package declaration to match the directory structure
 
 public class Armstrong {
 

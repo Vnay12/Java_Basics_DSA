@@ -1,4 +1,3 @@
-package TUF;
 
 public class ReverseNumber {
     public int numberReverse(int n) {
