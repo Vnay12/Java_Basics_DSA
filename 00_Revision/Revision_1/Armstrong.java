@@ -1,4 +1,3 @@
-package Revision;
 
 public class Armstrong {
     public boolean checkArmstrong(int n) {
