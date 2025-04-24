@@ -32,6 +32,7 @@ public class Count {
             System.out.println(answer);
         } finally {
             // cleanup code here
+            sc.close();
         }
     }
 }

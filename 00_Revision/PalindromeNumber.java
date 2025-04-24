@@ -35,7 +35,7 @@ public class PalindromeNumber {
             boolean answer = chk.check_Palindrome(n);
             System.out.println(answer);
         } finally {
-
+            sc.close();
         }
     }
 }
