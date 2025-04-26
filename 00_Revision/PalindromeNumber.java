@@ -1,4 +1,5 @@
-import java.util.ArrayList;
+
+// import java.util.ArrayList;
 import java.util.Scanner;
 
 public class PalindromeNumber {
@@ -29,7 +30,7 @@ public class PalindromeNumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         PalindromeNumber chk = new PalindromeNumber();
-        ArrayList<Integer> arr = new ArrayList<>();
+        // ArrayList<Integer> arr = new ArrayList<>();
         try {
             int n = sc.nextInt();
             boolean answer = chk.check_Palindrome(n);

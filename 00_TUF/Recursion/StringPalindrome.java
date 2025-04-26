@@ -27,6 +27,7 @@ public class StringPalindrome {
             ST.checkpalindrome(start, end, input);
         } finally {
             // cleanup code here
+            sc.close();
         }
     }
 }
