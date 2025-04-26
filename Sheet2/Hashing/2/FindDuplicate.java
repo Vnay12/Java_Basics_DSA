@@ -1,7 +1,5 @@
 // Leetcode 442
 
-package Hashing;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;

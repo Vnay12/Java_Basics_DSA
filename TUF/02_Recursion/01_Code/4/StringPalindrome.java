@@ -7,6 +7,7 @@ public class StringPalindrome {
         }
         String clean = S.replaceAll("[^a-zA-Z0-9]", "").toLowerCase();
         String og = clean;
+        System.out.println(og);
         char[] charArray = S.toCharArray();
         char temp = charArray[start];
         charArray[start] = charArray[end];

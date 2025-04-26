@@ -1,7 +1,5 @@
 // Leetcode #1941
 
-package Hashing;
-
 import java.util.HashMap;
 import java.util.Scanner;
 
