@@ -6,6 +6,13 @@
             "name": "temp",
             "request": "launch",
             "mainClass": "temp",
+            "projectName": "Java_Basics_DSA_7fa2dc34"
+        },
+        {
+            "type": "java",
+            "name": "temp",
+            "request": "launch",
+            "mainClass": "temp",
             "projectName": "Java_Basics_DSA_64709519"
         },
         {
