@@ -1,7 +1,22 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class GCD {
-    public int GCDNumber(int n1, int n2) {
+    public int GCDNumber(int n, int m) {
+        ArrayList<Integer> arr = new ArrayList<>();
+        ArrayList<Integer> arr2 = new ArrayList<>();
+
+        for (int i = 0; i <= n; i++) {
+            if (n % i == 0) {
+                arr.add(i);
+            }
+        }
+
+        for (int j = 0; j < m; j++) {
+            if (m % j == 0) {
+                arr2.add(j);
+            }
+        }
 
         return 0;
     }

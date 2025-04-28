@@ -3,6 +3,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CommonChar",
+            "request": "launch",
+            "mainClass": "CommonChar",
+            "projectName": "Java_Basics_DSA_7bf1c8dc"
+        },
+        {
+            "type": "java",
+            "name": "GCD",
+            "request": "launch",
+            "mainClass": "GCD",
+            "projectName": "Java_Basics_DSA_7bf1c8dc"
+        },
+        {
+            "type": "java",
             "name": "temp",
             "request": "launch",
             "mainClass": "temp",
