@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "largestElement",
+            "request": "launch",
+            "mainClass": "largestElement",
+            "projectName": "Java_Basics_DSA_7bf1c8dc"
+        },
+        {
+            "type": "java",
             "name": "DSA_CheatSheet",
             "request": "launch",
             "mainClass": "DSA_CheatSheet",
